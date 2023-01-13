@@ -27,8 +27,8 @@
   font-weight: bold;
 }
 .awesome > :nth-child(3) {
-  color: var(--gray);
-  font-size: 14px;
+  color: rgb(186, 34, 34);
+  font-size: 1.2rem;
   margin-top: 1rem;
 }
 .s-button {
@@ -36,6 +36,7 @@
   height: 2rem;
   margin-top: 1rem;
 }
+
 /* right sided */
 .cards {
   position: relative;

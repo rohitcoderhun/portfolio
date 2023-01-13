@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './Rohit_CV.pdf';
 
 const Services = () => {
   // context
@@ -24,12 +24,12 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span style={{ color: darkMode ? "white" : "" }}>My</span>
+        <span>Skills</span>
+        <spane style={{color:"#434446"}}>
+          I have experience of working in react, JavaScript. Added new features from scratch in stepapp.
           <br />
-          ispum is simpley dummy text of printing
+          Good problem solving skills. 3 star on Codechef
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Coding"}
+            detail={"Data structure, Algorithms, c++, SQL, MySQL, DBMS, OOPS"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Frontend Development"}
+            detail={"Html, Css, JavaScript, React, Redux, Bootstrap, c++"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Content Writer"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Did intern as Content Writer in GeeksForGeeks. 10 articles published on geeksforgeeks."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

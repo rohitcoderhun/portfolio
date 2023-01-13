@@ -8,6 +8,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 import { useContext } from "react";
 import { themeContext } from "./Context";
 function App() {
@@ -17,7 +19,7 @@ function App() {
     <div
       className="App"
       style={{
-        background: darkMode ? "black" : "",
+        background: darkMode ? "black" : "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,33,62,1) 0%, rgba(32,103,230,1) 0%, rgba(8,208,190,1) 48%, rgba(0,212,255,1) 100%)",
         color: darkMode ? "white" : "",
       }}
     >
@@ -25,9 +27,9 @@ function App() {
       <Intro />
       <Services />
       <Experience />
-      <Works />
+      {/* <Works /> */}
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>
